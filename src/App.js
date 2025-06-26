@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Rooms from './Rooms';
 import About from './About';
@@ -16,11 +16,17 @@ function App() {
             <li><Link to="/rooms">Rooms</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/blog">Blog</Link></li>
-            <li><Link to="/book">Book</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>
+        
         <Routes>
-          <Route path="/" element={<h1 className="text-4xl text-center pt-20">Welcome to 197 Hostel, Zanzibar</h1>} />
+          <Route path="/" element={
+            <div className="hero bg-cover bg-center h-96" style={{ backgroundImage: "url('zanzibar-beach.jpg')" }}>
+              <h1 className="text-4xl text-white text-center pt-20">Welcome to 197 Hostel, Zanzibar</h1>
+              <Link to="/book" className="mt-4 inline-block bg-orange-500 text-white py-2 px-4 rounded">Book Now</Link>
+            </div>
+          } />
           <Route path="/rooms" element={<Rooms />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
@@ -31,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
