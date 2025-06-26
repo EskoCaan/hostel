@@ -2,6 +2,7 @@
   "name": "hostel197-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://eskoCaan.github.io/hostel",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -40,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://eskoCaan.github.io/hostel"
-}
+    "gh-pages": "^6.1.1"
+  }
+} 
