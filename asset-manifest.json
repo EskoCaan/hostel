@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hostel/static/css/main.a0c862a9.css",
+    "main.js": "/hostel/static/js/main.d15d2555.js",
+    "static/js/453.89521948.chunk.js": "/hostel/static/js/453.89521948.chunk.js",
+    "index.html": "/hostel/index.html",
+    "main.a0c862a9.css.map": "/hostel/static/css/main.a0c862a9.css.map",
+    "main.d15d2555.js.map": "/hostel/static/js/main.d15d2555.js.map",
+    "453.89521948.chunk.js.map": "/hostel/static/js/453.89521948.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0c862a9.css",
+    "static/js/main.d15d2555.js"
+  ]
+}
